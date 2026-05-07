@@ -1,0 +1,56 @@
+css
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+body {
+    margin: 0;
+    display: flex;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+}
+#app {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    background-color: #1a1a1a;
+    color: white;
+    cursor: pointer;
+    transition: all 0.25s;
+}
+button:hover {
+    background-color: #646cff;
+}
+#count-display {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 20px 0;
+    color: #2a5298;
+}
+.info {
+    text-align: left;
+    margin-top: 30px;
+    padding: 20px;
+    background: #f5f5f5;
+    border-radius: 10px;
+}
+.info ul {
+    list-style-type: none;
+    padding: 0;
+}
+.info li {
+    padding: 8px 0;
+    font-size: 18px;
+}
